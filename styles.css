@@ -58,28 +58,44 @@ body{
     color: #fff;
 }
 
-#hero h1{
+
+
+/* Landing Page */
+
+.page1{
+    display: flex;
+    
+}
+.title{
+    font-family: 'Montserrat';
+    font-size: 4vh;
+    font-weight: bold;
+    color: #000000;
+    margin: 10vw 5vw 16vw 8vw;
+    text-align: left;
+    padding: 2vh 1vw 4vh 2vw;
+    background-color: #c4bfab;
+    border-radius: 1px 20px 1px 20px;
+    z-index: 100;
+    
+}
+.page1l h1{
+    font-size: 7vh;
     color: #2d3c32;
     padding-left: 4vw;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 4vh;
 }
 
-.title{
-    font-family: 'Montserrat';
-    font-size: 4vh;
-    font-weight: bold;
-    color: #000000;
-    margin-top: 30vh;
-    text-align: left;
-    padding: 2vh 1vw 4vh 2vw;
-    background-color: #c4bfab;
-    margin-right: 50vw;
-    margin-left: 8vw;
-    border-radius: 1px 20px 1px 20px;
-    z-index: 100;
-    
+.profile-pic img{
+    position: relative;
+    z-index: 1;
+    width: 40vw;
+    margin-right: 3vw;
+    top: 20%;
+    border-radius: 100px 4px 100px 4px;
 }
+
 
 .green-daba{
     position: absolute; 
@@ -96,33 +112,25 @@ body{
 
 
 
-.profile-pic img{
-    position:absolute;
-    z-index: -1;
-    height:60vh;
-    right:5%;
-    top: 20%;
-    border-radius: 100px 4px 100px 4px;
+/* Education Page Stylings*  */
+.page2{
+    display: flex;
 }
 
-#ec{
-    color: #f6eee3;
-}
 .reading-pic img{
-    margin-top: 35vh;
-    position:absolute;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    position: relative;
     z-index: -1;
-    height:45vw;
-    left:8%;
-    top: 75%;
-    border-radius: 0px 100px 2px 100px;
+    height:40vw;
+    border-radius: 0px 80px 2px 80px;
     z-index: 0;
 }
 
 .green-daba1{
     position: absolute; 
     z-index: -1;
-    top: 180%;  
+    top: 160%;  
     transform: translate(-50%, -50%); 
     height: 80vh; 
     width: 140vw; 
@@ -130,25 +138,26 @@ body{
     background-color: rgb(75, 211, 136);
 }
 
+.page2r{
+    margin: 0vh 0vw 0vh 10vw;
+}
 .title2{
-    position: absolute;
+    position: relative;
     color:#000000;
-    left: 56%;
-    top:105%;
+    margin-top: 4vh;
     font-family:'Oswald', sans-serif;
     font-weight: 500;
-    font-size: 15vh;
+    font-size: 7vw;
 }
 
 .vssut{
     display: flex;
-    position: absolute;
+    position: relative;
     border-radius: 20px 1px 20px 1px;
-    height: 27vh;
-    width: 40vw;
+    height: 18vh;
+    width: 38vw;
     padding: 10px; 
-    left: 55%;
-    top:125%;
+    margin-top: 10vh;
     background-color: #c4bfab;
 }
 
@@ -157,22 +166,27 @@ body{
     border-radius: 1px;
     z-index: 0;
     height: 40px;
+    
 
 }
-.vssut h3{
-    padding: 0%;
+.vssut h4{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
+    
+}
+.vssut p{
+
+    
+    font-size: 3.5vh;
 }
 
 .kv{
-    position: absolute;
+    position: relative;
     display: flex;
     padding: 10px;
-    height: 27vh;
-    width: 40vw;
-    left: 55%;
-    top:165%;
+    height: 18vh;
+    width: 38vw;
+    margin-top: 10vh;
     background-color:#c4bfab ;
     margin-right: 2vw;
     border-radius: 20px 1px 20px 1px ;
@@ -189,63 +203,63 @@ body{
 
 }
 
-.kv h3{
+.kv h4{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
     
 }
-
+.kv p{
+    font-size: 3.5vh;
+}
 .green-daba2{
     position: absolute; 
     z-index: -1;
-    top: 280%; 
+    top: 265%; 
     left: 67%; 
     transform: translate(-50%, -50%); 
     height: 90vh; 
     width: 65.2vw; 
-    border-radius: 300px 0px 0px 5px; 
+    border-radius: 5px 0px 0px 300px; 
     background-color: rgb(75, 211, 136);
 }
 
 .title3{
-    position: absolute;
+    position: relative;
     color:#000000;
     margin-left: 4vw;
-    top:225%;
+    margin-top: 4vw;
     font-family:'Oswald', sans-serif;
     font-weight: 500;
     font-size: 6.5vw;
 }
 
-#about{
-    margin-top: 65%;
-}
 
 .bout{
-    position: absolute;
-    top:245%;
-    padding: 30px;
-    background-color:#c4bfab ;
-    margin: 5vh 20vw 10vh 10vw;
-    border-radius: 1px 20px 1px 20px;
-    text-align: center;
+    position: relative;
+    display: flex;
 }
 
+.bout p{
+    padding: 30px;
+    background-color:#c4bfab ;
+    margin: 6vw 4vw 10vw 8vw;
+    border-radius:20px 1px 20px 1px ;
+    text-align: center;
+    
+}
 
-
-.photu img{
-    position: absolute;
-    top:220%;
-    left: 75%;
+.bout img{
+    position: relative;
     z-index: 1;
+    margin-top: 1%;
+    right: 7%;
     height:30vw;
-    border-radius: 0px 50px 2px 50px;
+    border-radius: 50px 2px 50px;
 }
 
 /* Footer Section Styles */
 footer {
-    margin-top: 200vh;
-    background-color: #c4bfab ; 
+    background-image: linear-gradient(180deg,#f6eee3, #c4bfab );
     color: #000000;
     padding: 20px 20px 0px;
     text-align: center;
@@ -254,17 +268,27 @@ footer {
 
 .footer-logo img {
     max-width: 150px;
-    padding-bottom: 10px;
-    border-radius: 0px 50px 2px 50px;
+    border-radius:50px 2px 50px 0px ;
+    margin-bottom: 0.5vw;
    
+}
+.footer-logo{
+
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5vw;    
 }
 
 
 
 .social-icons {
-    
+    margin-top: 0.5vw;
+    border-radius:20px 0px 20px 0px ;
+    margin-inline:29vw;
+    background-color: rgb(75, 211, 136);
     position: relative;
+    padding-top: 2vw;
     z-index: 2;
+    margin-bottom: 1vw;
 }
 
 .social-icons a {
@@ -272,12 +296,14 @@ footer {
 }
 
 .social-icons img {
-    width: 20px;
-    height: 20px;
+    width: 4vw;
+    height: 4vw;
     padding-left: 1vw;
-    padding-bottom: 2vh;
+    padding-bottom: 1vw;
 }
 
 .samapt p{
     position: relative;
+    font-size: 1.5vw;
+    font-family:'Oswald', sans-serif;
 }
