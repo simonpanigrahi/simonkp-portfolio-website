@@ -19,7 +19,7 @@ body{
     color: #fff;
     text-align: center;
     padding: 1vh 1vh;
-    padding-top: 3vh;
+    padding-top: 1.5vw;
     text-align: right;
 }
 .navigation-bar ul {
@@ -46,9 +46,9 @@ body{
 
 .hire-button{
     background-color: #c4bfab;
-    border-radius: 10px 1px 10px 1px;
-    padding-top: 1vh;
-    padding-bottom: 2vh; 
+    border-radius: 2vh 0.1vh 2vh 0.1vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw; 
     border: solid rgb(75, 211, 136);
 }
 .hire-button:hover{
@@ -93,7 +93,7 @@ body{
     width: 40vw;
     margin-right: 3vw;
     top: 20%;
-    border-radius: 100px 4px 100px 4px;
+    border-radius:  4px 100px 4px;
 }
 
 
@@ -103,8 +103,8 @@ body{
     top: 41%; 
     left: 60%; 
     transform: translate(-50%, -50%); 
-    height: 120vh; 
-    width: 79vw; 
+    height: 120%; 
+    width: 79%; 
     border-radius: 0px 0px 0px 240px; 
     background-color: rgb(75, 211, 136);
 }
@@ -172,12 +172,11 @@ body{
 .vssut h4{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
+    font-size: 100%;
     
 }
-.vssut p{
-
-    
-    font-size: 3.5vh;
+.vssut p{ 
+    font-size: 80%;
 }
 
 .kv{
@@ -206,10 +205,11 @@ body{
 .kv h4{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
+    font-size: 100%;
     
 }
 .kv p{
-    font-size: 3.5vh;
+    font-size: 80%;
 }
 .green-daba2{
     position: absolute; 
@@ -217,8 +217,8 @@ body{
     top: 265%; 
     left: 67%; 
     transform: translate(-50%, -50%); 
-    height: 90vh; 
-    width: 65.2vw; 
+    height: 90%; 
+    width: 65.2%; 
     border-radius: 5px 0px 0px 300px; 
     background-color: rgb(75, 211, 136);
 }
@@ -245,6 +245,7 @@ body{
     margin: 6vw 4vw 10vw 8vw;
     border-radius:20px 1px 20px 1px ;
     text-align: center;
+    font-size: 100%;
     
 }
 
