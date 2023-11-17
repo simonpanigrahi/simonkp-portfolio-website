@@ -132,8 +132,8 @@ body{
     z-index: -1;
     top: 160%;  
     transform: translate(-50%, -50%); 
-    height: 80vh; 
-    width: 140vw; 
+    height: 80%; 
+    width: 140%; 
     border-radius: 0px 5px 240px 0px ; 
     background-color: rgb(75, 211, 136);
 }
@@ -169,14 +169,15 @@ body{
     
 
 }
-.vssut h4{
+.vssut h2{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
     font-size: 100%;
     
 }
-.vssut p{ 
+.vssut h3{ 
     font-size: 80%;
+    font-weight: 100;
 }
 
 .kv{
@@ -202,14 +203,15 @@ body{
 
 }
 
-.kv h4{
+.kv h2{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
     font-size: 100%;
     
 }
-.kv p{
+.kv h3{
     font-size: 80%;
+    font-weight: 100;
 }
 .green-daba2{
     position: absolute; 
@@ -239,8 +241,9 @@ body{
     display: flex;
 }
 
-.bout p{
+.bout h3{
     padding: 30px;
+    font-weight: 100;
     background-color:#c4bfab ;
     margin: 6vw 4vw 10vw 8vw;
     border-radius:20px 1px 20px 1px ;
@@ -268,7 +271,7 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 150px;
+    max-width: 22%;
     border-radius:50px 2px 50px 0px ;
     margin-bottom: 0.5vw;
    
@@ -305,6 +308,6 @@ footer {
 
 .samapt p{
     position: relative;
-    font-size: 1.5vw;
+    font-size: 5%;
     font-family:'Oswald', sans-serif;
 }
