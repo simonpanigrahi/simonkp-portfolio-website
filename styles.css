@@ -93,7 +93,7 @@ body{
     width: 40vw;
     margin-right: 3vw;
     top: 20%;
-    border-radius:  4px 100px 4px;
+    border-radius:  4px 32% 4px;
 }
 
 
@@ -105,7 +105,7 @@ body{
     transform: translate(-50%, -50%); 
     height: 120%; 
     width: 79%; 
-    border-radius: 0px 0px 0px 240px; 
+    border-radius: 0px 0px 0px 50%; 
     background-color: rgb(75, 211, 136);
 }
 
@@ -221,7 +221,7 @@ body{
     transform: translate(-50%, -50%); 
     height: 90%; 
     width: 65.2%; 
-    border-radius: 5px 0px 0px 300px; 
+    border-radius: 5px 0px 0px 250%; 
     background-color: rgb(75, 211, 136);
 }
 
