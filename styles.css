@@ -172,11 +172,11 @@ body{
 .vssut h2{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
-    font-size: 200%;
+    font-size: 2em;
     
 }
 .vssut h3{ 
-    font-size: 80%;
+    font-size: 1.6em;
     font-weight: 100;
 }
 
@@ -206,11 +206,11 @@ body{
 .kv h2{
     font-family:'Oswald', sans-serif;
     font-weight: 500;
-    font-size: 100%;
+    font-size: 2em;
     
 }
 .kv h3{
-    font-size: 80%;
+    font-size: 1.6em;
     font-weight: 100;
 }
 .green-daba2{
