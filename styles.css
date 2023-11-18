@@ -213,53 +213,7 @@ body{
     font-size: 1.6em;
     font-weight: 100;
 }
-.green-daba2{
-    position: absolute; 
-    z-index: -1;
-    top: 265%; 
-    left: 67%; 
-    transform: translate(-50%, -50%); 
-    height: 90%; 
-    width: 65.2%; 
-    border-radius: 5px 0px 0px 250%; 
-    background-color: rgb(75, 211, 136);
-}
 
-.title3{
-    position: relative;
-    color:#000000;
-    margin-left: 4vw;
-    margin-top: 4vw;
-    font-family:'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 6.5vw;
-}
-
-
-.bout{
-    position: relative;
-    display: flex;
-}
-
-.bout h3{
-    padding: 30px;
-    font-weight: 100;
-    background-color:#c4bfab ;
-    margin: 6vw 4vw 10vw 8vw;
-    border-radius:20px 1px 20px 1px ;
-    text-align: center;
-    font-size: 100%;
-    
-}
-
-.bout img{
-    position: relative;
-    z-index: 1;
-    margin-top: 1%;
-    right: 7%;
-    height:30vw;
-    border-radius: 50px 2px 50px;
-}
 
 /* Footer Section Styles */
 footer {
