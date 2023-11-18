@@ -234,113 +234,7 @@ body{
 
 /* High-resolution styles for 2k displays (1440px and above) */
 @media only screen and (min-width: 1430px) {
-    
-body{
-    background-color:#f6eee3 ;
-}
-    /* Navigation Menu */
-.navigation-bar {
-    background-color: #00000000;
-    color: #fff;
-    text-align: center;
-    padding: 1vh 1vh;
-    padding-top: 1.5vw;
-    text-align: right;
-}
-.navigation-bar ul {
-    list-style: none;
-}
-.navigation-bar ul {
-    list-style: none;
-}
-.navigation-bar ul li {
-    display: inline;
-}
-.navigation-bar a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 0.8em;
-    font-weight: 600;
-    padding-inline: 2vw;
-}
-.navigation-bar a:hover{
-    color:#2d3c32;
-    
-}
-
-.hire-button{
-    background-color: #c4bfab;
-    border-radius: 2vh 0.1vh 2vh 0.1vh;
-    padding-top: 1vw;
-    padding-bottom: 1vw; 
-    border: solid rgb(75, 211, 136);
-}
-.hire-button:hover{
-    border: solid #2d3c32;
-}
-.hire-button a:hover{
-    color: #fff;
-}
-
-
-
-/* Landing Page */
-
-.page1{
-    display: flex;
-    
-}
-.title{
-    font-family: 'Montserrat';
-    font-size: 4vh;
-    font-weight: bold;
-    color: #000000;
-    margin: 10vw 5vw 16vw 8vw;
-    text-align: left;
-    padding: 2vh 1vw 4vh 2vw;
-    background-color: #c4bfab;
-    border-radius: 1px 20px 1px 20px;
-    z-index: 100;
-    
-}
-.page1l h1{
-    font-size: 7vh;
-    color: #2d3c32;
-    padding-left: 4vw;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 4vh;
-}
-
-.profile-pic img{
-    position: relative;
-    z-index: 1;
-    width: 40vw;
-    margin-right: 3vw;
-    top: 20%;
-    border-radius:  4px 32% 4px;
-}
-
-
-.green-daba{
-    position: absolute; 
-    z-index: -1;
-    top: 41%; 
-    left: 60%; 
-    transform: translate(-50%, -50%); 
-    height: 120%; 
-    width: 80%; 
-    border-radius: 0px 0px 0px 50%; 
-    background-color: rgb(75, 211, 136);
-}
-
-}
-
-
-
-/* High-resolution styles for 4k displays (2560px and above) */
-@media only screen and (min-width: 2550px) {
-    
+ 
 body{
     background-color:#f6eee3;
 }
@@ -391,7 +285,7 @@ body{
 
 
 
-/* Landing Page */
+/* Hero Page */
 
 .page1{
     display: flex;
@@ -439,4 +333,316 @@ body{
     border-radius: 0px 0px 0px 50%; 
     background-color: rgb(75, 211, 136);
 }
+
+/* Hero Page k niche wala start */
+.page2{
+    display: flex;
+}
+
+.reading-pic img{
+    margin-top: vw;
+    margin-left: 8vw;
+    position: relative;
+    z-index: -1;
+    height:40vw;
+    border-radius: 0px 80px 2px 80px;
+    z-index: 0;
+}
+
+.green-daba1{
+    position: absolute; 
+    z-index: -1;
+    top: 118%;
+    height: 35vw; 
+    width: 70vw; 
+    border-radius: 0px 5px 240px 0px ; 
+    background-color: rgb(75, 211, 136);
+}
+
+.page2r{
+    margin: 0vh 0vw 0vh 10vw;
+}
+.title2{
+    position: relative;
+    color:#000000;
+    margin-top: 4vh;
+    font-family:'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.bout{
+    position: relative;
+    display: flex;
+}
+
+.bout h3{
+    padding: 30px;
+    font-weight: 100;
+    background-color:#c4bfab ;
+    margin: 6vw 4vw 10vw 2vw;
+    border-radius:20px 1px 20px 1px ;
+    text-align: center;
+    font-size: 100%;
+    
+}
+
+.green-gol{ 
+    position:absolute;
+    height: 180px; 
+    transform: translate(200%,-50%);
+    width: 200px; 
+    border-radius: 150px 150px 150px 150px; 
+    background-color: rgb(75, 211, 136); 
+}
+
+.footer-logo{
+
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5vw;    
+}
+
+
+.social-icons {
+    margin-top: 2vw;
+    border-radius:100% 100% 80% 80% ;
+    background-color: rgb(75, 211, 136);
+    margin-inline:20vw;
+    position: relative;
+    height: 15vw;
+    padding-top: 6vw;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Montserrat';
+
+}
+
+.social-icons a {
+    margin-right: 1vw;
+}
+
+.social-icons img {
+    margin-top: 1vw;
+    width: 4vw;
+    height: 4vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+}
+
+.samapt p{
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+    font-family:'Oswald', sans-serif;
+}
+
+
+}
+
+/* High-resolution styles for 4k displays (2560px and above) */
+@media only screen and (min-width: 2550px) {
+ 
+body{
+    background-color:#f6eee3;
+}
+    /* Navigation Menu */
+.navigation-bar {
+    background-color: #00000000;
+    color: #fff;
+    text-align: center;
+    padding: 1vh 1vh;
+    padding-top: 1.5vw;
+    text-align: right;
+}
+.navigation-bar ul {
+    list-style: none;
+}
+.navigation-bar ul {
+    list-style: none;
+}
+.navigation-bar ul li {
+    display: inline;
+}
+.navigation-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-inline: 2vw;
+}
+.navigation-bar a:hover{
+    color:#2d3c32;
+    
+}
+
+.hire-button{
+    background-color: #c4bfab;
+    border-radius: 2vh 0.1vh 2vh 0.1vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw; 
+    border: solid rgb(75, 211, 136);
+}
+.hire-button:hover{
+    border: solid #2d3c32;
+}
+.hire-button a:hover{
+    color: #fff;
+}
+
+
+
+/* Hero Page */
+
+.page1{
+    display: flex;
+    
+}
+.title{
+    font-family: 'Montserrat';
+    font-size: 4vh;
+    font-weight: bold;
+    color: #000000;
+    margin: 10vw 5vw 16vw 8vw;
+    text-align: left;
+    padding: 2vh 1vw 4vh 2vw;
+    background-color: #c4bfab;
+    border-radius: 1px 20px 1px 20px;
+    z-index: 100;
+    
+}
+.page1l h1{
+    font-size: 7vh;
+    color: #2d3c32;
+    padding-left: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4vh;
+}
+
+.profile-pic img{
+    position: relative;
+    z-index: 1;
+    width: 40vw;
+    margin-right: 3vw;
+    top: 20%;
+    border-radius:  4px 32% 4px;
+}
+
+
+.green-daba{
+    position: absolute; 
+    z-index: -1;
+    top: 41%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    height: 120%; 
+    width: 80%; 
+    border-radius: 0px 0px 0px 50%; 
+    background-color: rgb(75, 211, 136);
+}
+
+/* Hero Page k niche wala start */
+.page2{
+    display: flex;
+}
+
+.reading-pic img{
+    margin-top: vw;
+    margin-left: 8vw;
+    position: relative;
+    z-index: -1;
+    height:40vw;
+    border-radius: 0px 80px 2px 80px;
+    z-index: 0;
+}
+
+.green-daba1{
+    position: absolute; 
+    z-index: -1;
+    top: 118%;
+    height: 35vw; 
+    width: 70vw; 
+    border-radius: 0px 5px 240px 0px ; 
+    background-color: rgb(75, 211, 136);
+}
+
+.page2r{
+    margin: 0vh 0vw 0vh 10vw;
+}
+.title2{
+    position: relative;
+    color:#000000;
+    margin-top: 4vh;
+    font-family:'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.bout{
+    position: relative;
+    display: flex;
+}
+
+.bout h3{
+    padding: 30px;
+    font-weight: 100;
+    background-color:#c4bfab ;
+    margin: 6vw 4vw 10vw 2vw;
+    border-radius:20px 1px 20px 1px ;
+    text-align: center;
+    font-size: 100%;
+    
+}
+
+.green-gol{ 
+    position:absolute;
+    height: 180px; 
+    transform: translate(200%,-50%);
+    width: 200px; 
+    border-radius: 150px 150px 150px 150px; 
+    background-color: rgb(75, 211, 136); 
+}
+
+.footer-logo{
+
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5vw;    
+}
+
+
+.social-icons {
+    margin-top: 2vw;
+    border-radius:100% 100% 80% 80% ;
+    background-color: rgb(75, 211, 136);
+    margin-inline:20vw;
+    position: relative;
+    height: 15vw;
+    padding-top: 6vw;
+    text-align: center;
+    z-index: 2;
+    font-family: 'Montserrat';
+
+}
+
+.social-icons a {
+    margin-right: 1vw;
+}
+
+.social-icons img {
+    margin-top: 1vw;
+    width: 4vw;
+    height: 4vw;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+}
+
+.samapt p{
+    text-align: center;
+    position: relative;
+    font-size: 1em;
+    font-family:'Oswald', sans-serif;
+}
+
+
+
 }
