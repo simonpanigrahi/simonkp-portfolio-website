@@ -160,8 +160,8 @@ body{
     position: absolute;
     top: 110%;
     z-index: -1;
-    width: 14vw;
-    height: 10vw;
+    width: 14vh;
+    height: 12vh;
     border-radius: 0px 100% 0px 0px; 
     background-color: rgb(75, 211, 136);
 }
