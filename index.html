@@ -3,65 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="wiFMbG4jpiT_MwAVarJJRG2hjCB1G3PbDY5N36TZ9T8" />
-    <title>Simon's Portfolio</title>
+    <title>Creative Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-    
 <body>
-    <header>
-        <!-- Navigation Menu -->
-        <div class="navigation-bar">
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="navbar">
+        <div class="logo">Portfolio</div>
+        <nav>
             <ul>
-                <li><a href="https://drive.google.com/file/d/1UHLVHAZI2eSW1wPe4sFAYZPpcRaai1j3/view?usp=sharing">Resume</a></li>        
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="hire-button"><a href="https://www.freelancer.in/u/simonkp">Hire Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact" class="contact-btn">Contact   </a></li>
             </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>I'm <span class="highlight">Simon Kenny Panigrahi</span>, a Data Science enthusiast</h1>
+            <p>Building scalable and high-end data solutions.</p>
+            <a href="#about" class="btn">About Me</a>
+            <a href="#contact" class="btn-dark">Hire Me</a>
         </div>
-    </header>   
-
-<!-- Hero Section -->
-<section id="hero">
-        
-    <div class="page1">
-        <div class="page1l">
-            <h1>Welcome To My Portfolio</h1>
-            <h2 class="title">Hey There,<br> I am Simon Kenny Panigrahi, a Information Technology Undergraduate from VSSUT</h2>
+        <div class="hero-image">
+            <img src="images/profile.PNG" alt="Profile Picture">
         </div>
-                
-        <div class="profile-pic">
-            <img src="images/side-smile.jpg" alt="Simon's Profile Picture">
-        </div>   
-    </div>
-            
-    <div class="green-daba"></div>         
-</section>
-    
+    </section>
 
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a third-year B.Tech student specializing in Information Technology with a
+            strong foundation in computer applications and programming. I am a fast learner
+            with excellent analytical skills, dedicated to mastering new technologies and solving
+            complex problems efficiently.</p>
+    </section>
 
-<footer>
-    <div id="contact">
-        <div class="social-icons">
-            <h4>We can get in touch via</h4>
-            <a href="https://www.linkedin.com/in/simonkp/" target="_blank"><img src="/images/icons8-linkedin-96.png" alt="LinkedIn"></a>
-            <a href = "mailto:simonkp.acad@gmail.com?subject = Feedback&body = Message"><img src="images/icons8-gmail-96.png" alt=""></a>         
-            <a href="https://x.com/Simon_panigrahi" target="_blank"><img src="/images/icons8-twitter-squared-96.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/simon_kp/" target="_blank"><img src="/images/icons8-instagram-96.png" alt="Instagram"></a>
-            <a href="https://github.com/simonpanigrahi" target="_blank"><img src="/images/icons8-github-96.png" alt="Github"></a>
-            
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item"><img src="images/project1.jpg" alt="Project 1"></div>
+            <div class="portfolio-item"><img src="images/project2.jpg" alt="Project 2"></div>
+            <div class="portfolio-item"><img src="images/project3.jpg" alt="Project 3"></div>
         </div>
-        <div class="samapt">
-            <p>&copy; 2023 Simon Kenny Panigrahi</p>
-        </div>
-    </div>
-    <div class="gol">
+    </section>
 
-    </div>
-</footer>
+    <!-- BLOG SECTION -->
+    <section id="blog" class="blog">
+        <h2>My Blog</h2>
+        <p>Stay updated with my latest thoughts on design.</p>
+        <input type="email" placeholder="Enter your Email">
+        <button>Subscribe</button>
+    </section>
 
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="reviews">
+        <h2>My Clients</h2>
+        <p>"Highly recommend." - Abdelrahman Salah</p>
+    </section>
 
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Available on Github, LinkedIn, Kaggle, and Twitter.</p>
+        <p>Email: <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+    </section>
 
+    <footer>
+        <p>© 2024 Creative Portfolio. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
